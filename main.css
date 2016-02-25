@@ -1,14 +1,22 @@
+
+
 .tb1 {
 	width: 136px;
 	height: 34px;
 	float: left;
 	margin: auto;
 	display: inline-block;
+	color: #aaa;
+	padding-top: 10px;
+	margin-right: -20px;
+	padding-left: 15px;
+	font-size: 18px;
 }
 
 div.image {
 	width: 1340px;
 	height: 403px;
+	padding-top: -10px;
 	content: url(http://i.imgur.com/lEi9f1A.jpg);
 }
 
@@ -17,6 +25,8 @@ div.sp {
 	text-align: center;
 	font-size: 36px;
 	margin-top: -250px;
+	position: relative;
+	overflow: hidden;
 }
 
 div.tyb {
@@ -24,4 +34,62 @@ div.tyb {
 	text-align: center;
 	font-size: 36px;
 	margin-top: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+div.Personal {
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: -20px;
+
+}
+
+div.fivedollar {
+	width: 200px;
+	height: 115px;
+	background-color: #459940;
+	position: relative;
+	margin: auto;
+}
+
+div.gboxes {
+	width: 200px;
+	height: 30px;
+	margin: auto;
+	background-color: #EBEBEB;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+}
+
+div.gboxesbot {
+	width: 200px;
+	height: 30px;
+	margin: auto;
+	background-color: #EBEBEB;
+	border-bottom: 1px solid #ddd;
+}
+
+div span {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px; 
+}
+
+div.bgb {
+	float: left;
+	margin: 200px;
+}
+
+button {
+	font-size: 12px;
+	height:20px; 
+    width:70px; 
+    margin: -20px -35px; 
+    position:relative;
+    top:13%; 
+    left:50%;;
 }
