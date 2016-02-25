@@ -78,7 +78,7 @@ div.gboxes {
 	height: 30px;
 	margin: auto;
 	background-color: #EBEBEB;
-	border-bottom: 1px solid #ddd;
+	border: 1px solid #ddd;
 	text-align: center;
 	font-size: 12px;
 	color: #aaa;
@@ -101,6 +101,7 @@ div span {
 div.bgb {
 	float: left;
 	margin: 200px;
+
 }
 
 button {
@@ -139,7 +140,7 @@ div.per_month2 {
 	bottom: -10px;
 }
 
-/*END OF TEXT INSIDE GREEN BOX*/
+/*END OF TEXT INSIDE BLUE BOX*/
 
 div.bluebox {
 	width: 200px;
@@ -154,7 +155,7 @@ div.greyboxes {
 	height: 30px;
 	margin: auto;
 	background-color: #EBEBEB;
-	border-bottom: 1px solid #ddd;
+	border: 1px solid #ddd;
 	text-align: center;
 	font-size: 12px;
 	color: #aaa;
@@ -189,4 +190,81 @@ button {
     top:23%; 
     left:50%;;
 }
-/*---------END OF GREEN BOX-----------*/
+/*---------END OF BLUE BOX-----------*/
+
+/*--------BLACK BOX---------*/
+/*TEXT INSIDE BLACK BOX*/
+
+div.Personal3 {
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: -10px;
+}
+
+div.fortyfive {
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: -10px;
+	font-size: 50px;
+}
+
+div.per_month3 {
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: -10px;
+}
+
+/*END OF TEXT INSIDE BLACK BOX*/
+
+div.blackbox {
+	width: 200px;
+	height: 115px;
+	background-color: black;
+	position: relative;
+	margin: auto;
+}
+
+div.greyboxes3 {
+	width: 200px;
+	height: 30px;
+	margin: auto;
+	background-color: #EBEBEB;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+}
+
+div.greyboxesbot3 {
+	width: 200px;
+	height: 50px;
+	margin: auto;
+	background-color: #EBEBEB;
+	border-bottom: 1px solid #ddd;
+}
+
+div span {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px; 
+}
+
+div.bblb {
+	float: left;
+	margin: 200px;
+	margin-right: -180px;
+}
+
+button {
+	font-size: 12px;
+	height:20px; 
+    width:70px; 
+    margin: -20px -35px; 
+    position:relative;
+    top:23%; 
+    left:50%;;
+}
+/*---------END OF BLACK BOX-----------*/
