@@ -2,5 +2,26 @@
 	width: 136px;
 	height: 34px;
 	float: left;
+	margin: auto;
 	display: inline-block;
+}
+
+div.image {
+	width: 1340px;
+	height: 403px;
+	content: url(http://i.imgur.com/lEi9f1A.jpg);
+}
+
+div.sp {
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	margin-top: -250px;
+}
+
+div.tyb {
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	margin-top: 0px;
 }
