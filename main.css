@@ -38,13 +38,32 @@ div.tyb {
 	overflow: hidden;
 }
 
+/*--------GREEN BOX---------*/
+/*TEXT INSIDE GREEN BOX*/
+
 div.Personal {
 	text-align: center;
 	color: white;
 	position: relative;
-	bottom: -20px;
-
+	bottom: -10px;
 }
+
+div.fivebucks {
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: -10px;
+	font-size: 50px;
+}
+
+div.per_month {
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: -10px;
+}
+
+/*END OF TEXT INSIDE GREEN BOX*/
 
 div.fivedollar {
 	width: 200px;
@@ -67,7 +86,7 @@ div.gboxes {
 
 div.gboxesbot {
 	width: 200px;
-	height: 30px;
+	height: 50px;
 	margin: auto;
 	background-color: #EBEBEB;
 	border-bottom: 1px solid #ddd;
@@ -90,6 +109,7 @@ button {
     width:70px; 
     margin: -20px -35px; 
     position:relative;
-    top:13%; 
+    top:23%; 
     left:50%;;
 }
+/*---------END OF GREEN BOX-----------*/
