@@ -222,7 +222,7 @@ div.per_month3 {
 div.blackbox {
 	width: 200px;
 	height: 115px;
-	background-color: #407199;
+	background-color: black;
 	position: relative;
 	margin: auto;
 }
@@ -268,3 +268,17 @@ button {
     left:50%;;
 }
 /*---------END OF BLACK BOX-----------*/
+
+.bottomfooter {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
+
+.footertext {
+	color: white;
+}
