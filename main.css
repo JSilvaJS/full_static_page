@@ -3,18 +3,48 @@
 	font-family: 'Helvetica', sans-serif;
 }
 
+html {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
 .tb1 {
 	width: 136px;
 	height: 20px;
-	float: left;
+/*	float: left;*/
 	margin: auto;
 	display: inline-block;
 	color: #aaa;
 	padding-top: 5px;
-	margin-right: -60px;
+	margin-right: -90px;
 	padding-left: 15px;
 	font-size: 12px;
 }
+
+div.tb1:nth-child(2) {
+	padding-left: 40px;
+	padding-right: -13px;
+}
+div.tb1:nth-child(3) {
+	padding-left: -40px;
+}
+div.tb1:nth-child(4) {
+	padding-left: -200px;
+}
+
+
 
 div.image {
 	width: 1340px;
@@ -102,8 +132,11 @@ div span {
 }
 
 div.bgb {
-	float: left;
-	margin: 200px;
+/*	float: left;*/
+	/*margin: 200px;*/
+	margin: 200px 0 0 0;
+	display: inline-block;
+	padding: 10px;
 
 }
 
@@ -179,9 +212,14 @@ div span {
 }
 
 div.bbb {
-	float: left;
-	margin: 200px;
-	margin-right: -180px;
+/*	float: left;*/
+	/*margin: 200px;*/
+	/*margin-right: -180px;*/
+	/*margin-top: 200px;*/
+	margin: 200px 0 0 0;
+	display: inline-block;
+	padding: 10px;
+
 }
 
 button {
@@ -256,9 +294,15 @@ div span {
 }
 
 div.bblb {
-	float: left;
-	margin: 200px;
-	margin-right: -180px;
+/*	float: left;*/
+	/*margin: 200px;*/
+	/*margin-right: -180px;*/
+	/*margin-top: 200px;*/
+	margin: 200px 0 0 0;
+	display: inline-block;
+	padding: 10px;
+
+
 }
 
 button {
@@ -272,44 +316,50 @@ button {
 }
 /*---------END OF BLACK BOX-----------*/
 
-div.3boxes {
-	position: absolute;
+div.threeboxes {  
+	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	z-index: 1;
+	right: -290px;
+/*	text-align: center;
+	z-index: 1;*/
 }
 
 /*---bottom 4 text boxes start----*/
 
 div.gsbox1 {
 	position: absolute;
+	display: inline-block;
 	height: 130px;
 	width: 280px;
-	left: 220px;
+	left: 320px;
 	top: 860px;
 }
 
 div.gsbox2 {
 	position: absolute;
+	display: inline-block;
 	height: 130px;
 	width: 280px;
-	right: 320px;
+	left: 640px;
 	top: 860px;
 }
 
 div.gsbox3 {
 	position: absolute;
+	display: inline-block;
 	height: 130px;
 	width: 280px;
-	left: 220px;
+	left: 320px;
 	top: 1010px;
 }
 
 div.gsbox4 {
 	position: absolute;
+	display: inline-block;
 	height: 130px;
 	width: 280px;
-	right: 320px;
+	left: 640px;
 	top: 1010px;
 }
 
@@ -327,10 +377,11 @@ p {
 /* ------- Black Footer -------*/
 
 .bottomfooter {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: absolute;
+  bottom: -50%;
+  left: 0px;
+  right: 0px;
+  width: 100%;
   padding: 1rem;
   background-color: black;
   text-align: center;
