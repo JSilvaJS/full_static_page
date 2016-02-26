@@ -17,7 +17,7 @@ div.image {
 	width: 1340px;
 	height: 403px;
 	padding-top: -10px;
-	content: url(http://i.imgur.com/lEi9f1A.jpg);
+	content: url(http://i.imgur.com/sOTXLTO.jpg);
 }
 
 div.sp {
@@ -222,7 +222,7 @@ div.per_month3 {
 div.blackbox {
 	width: 200px;
 	height: 115px;
-	background-color: black;
+	background-color: #407199;
 	position: relative;
 	margin: auto;
 }
