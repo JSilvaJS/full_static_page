@@ -1,16 +1,19 @@
 
+* {
+	font-family: 'Helvetica', sans-serif;
+}
 
 .tb1 {
 	width: 136px;
-	height: 34px;
+	height: 20px;
 	float: left;
 	margin: auto;
 	display: inline-block;
 	color: #aaa;
-	padding-top: 10px;
-	margin-right: -20px;
+	padding-top: 5px;
+	margin-right: -60px;
 	padding-left: 15px;
-	font-size: 18px;
+	font-size: 12px;
 }
 
 div.image {
@@ -269,6 +272,60 @@ button {
 }
 /*---------END OF BLACK BOX-----------*/
 
+div.3boxes {
+	position: absolute;
+	display: inline-block;
+	overflow: hidden;
+	z-index: 1;
+}
+
+/*---bottom 4 text boxes start----*/
+
+div.gsbox1 {
+	position: absolute;
+	height: 130px;
+	width: 280px;
+	left: 220px;
+	top: 860px;
+}
+
+div.gsbox2 {
+	position: absolute;
+	height: 130px;
+	width: 280px;
+	right: 320px;
+	top: 860px;
+}
+
+div.gsbox3 {
+	position: absolute;
+	height: 130px;
+	width: 280px;
+	left: 220px;
+	top: 1010px;
+}
+
+div.gsbox4 {
+	position: absolute;
+	height: 130px;
+	width: 280px;
+	right: 320px;
+	top: 1010px;
+}
+
+
+h3 { 
+	font-size: 12px;
+}
+
+p {
+	font-size: 12px;
+}
+/* ----END OF 4 TEXT BOXES ----*/
+
+
+/* ------- Black Footer -------*/
+
 .bottomfooter {
   position: fixed;
   right: 0;
@@ -282,3 +339,4 @@ button {
 .footertext {
 	color: white;
 }
+
