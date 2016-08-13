@@ -2,8 +2,9 @@
 The goal is to use sectioning HTML tags, effectively utilize some common CSS layout strategies (float or inline-block), and be able to leverage and understand the use of absolute vs relative in context of positioning by replicating the image below.
 
 # Example Image
-![alt text](http://jsilvajs.github.io/full_static_page/)
+![alt text](https://tiy-learn-content.s3.amazonaws.com/ab91dbbe-pick-a-plan.png)
 
+# Example Code
 ``` HTML
 	<div class="wrapper">
 <!-- Title Bar Stuff -->
